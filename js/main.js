@@ -1,7 +1,5 @@
-// Mapbox Access Token
 mapboxgl.accessToken = 'pk.eyJ1IjoidHJhbGVlMTAiLCJhIjoiY202cmp6MTd5MjNrMDJpcHY4N3JtZDFuNCJ9.FDnd5ftof56RdHpFHNsjxQ';
 
-// Initialize the map
 let map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/dark-v10',
@@ -18,7 +16,6 @@ legend.innerHTML = `
     <p class="break"><i class="dot" style="background: red; width: 12px; height: 12px;"></i> Fatal</p>
 `;
 
-// Load GeoJSON
 async function loadCollisions() {
     const response = await fetch('assets/SeaCollisionsData.geojson');
     const data = await response.json();
@@ -141,5 +138,4 @@ reset.addEventListener('click', () => {
     map.setFilter('collision-points', null);
 });
 
-// Load collisions
 loadCollisions();
