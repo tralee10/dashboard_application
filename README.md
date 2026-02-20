@@ -6,14 +6,12 @@ This project showcases an interactive web-based collision dashboard for the City
 
 AI tools were used to debug code only.
 
----
 
 ## Web Map
 
 You can view the interactive web map here:  
 https://tralee10.github.io/dashboard_application/index.html
 
----
 
 ## Features
 
@@ -25,7 +23,6 @@ https://tralee10.github.io/dashboard_application/index.html
 - Legend interpreting collision severity 
 - Reset map view button  
 
----
 
 ## Map Layers / Data Visualization
 
@@ -37,7 +34,6 @@ The basemap uses a dark Mapbox style to provide geographic context while maintai
 - **Examined area:** City of Seattle  
 - **Basemap style:** Mapbox Dark  
 
----
 
 ### Collision Points
 
@@ -52,7 +48,6 @@ The proportional symbol design allows users to visually compare severity across 
 - **Zoom levels:** 11
 - **Examined area:** City of Seattle
 
----
 
 ### Dashboard Panel
 
@@ -67,5 +62,5 @@ The dashboard panel enhances the map by providing contextual and interactive ele
 
 ## Data Sources
 
-- Collision Data: Seattle Collision GeoJSON dataset https://data-seattlecitygis.opendata.arcgis.com/datasets/90a68d4709b54327a6bc1dfa1b900f8d_0/explore?location=47.614571%2C-122.333025%2C11 
-- Basemap: Mapbox GL JS Dark Style  
+- **Collision Data:** [Seattle Collision GeoJSON dataset](https://data-seattlecitygis.opendata.arcgis.com/datasets/90a68d4709b54327a6bc1dfa1b900f8d_0/explore?location=47.614571%2C-122.333025%2C11)
+- **Basemap:** Mapbox GL JS Dark Style  
