@@ -11,9 +11,9 @@ let map = new mapboxgl.Map({
 const legend = document.getElementById('legend');
 legend.innerHTML = `
     <strong>Collision Severity</strong>
-    <p class="break"><i class="dot" style="background: green; width: 12px; height: 12px;"></i> Minor</p>
+    <p class="break"><i class="dot" style="background: green; width: 10px; height: 10px;"></i> Minor</p>
     <p class="break"><i class="dot" style="background: orange; width: 12px; height: 12px;"></i> Injury</p>
-    <p class="break"><i class="dot" style="background: red; width: 12px; height: 12px;"></i> Fatal</p>
+    <p class="break"><i class="dot" style="background: red; width: 15px; height: 15px;"></i> Fatal</p>
 `;
 
 async function loadCollisions() {
@@ -139,3 +139,4 @@ reset.addEventListener('click', () => {
 });
 
 loadCollisions();
+
