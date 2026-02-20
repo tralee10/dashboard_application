@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Seattle Collision Dashboard</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web|Oswald" rel="stylesheet">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="info">
+        <div id="title">
+            Seattle Vehicle Collisions
+            <span id="reset"><a href="#">Reset Map</a></span>
+        </div>
+
+        <p class="description">
+        This dashboard visualizes vehicle collisions in Seattle from 2016-2020 using proportional symbols.
+        Different colors represent the collision severity.
+        Click on a point to view detailed collision information.
+        </p>
+
+        <div id="count" class="card">
+            <h5 id="desc">Collisions in Displaying Region</h5>
+            <p id="collision-count"></p>
+        </div>
+
+        <p class="description">
+        The diagram shows the total number of collisions that occured. The bars show the number of collisions depending on the number of injuries from an accident.
+        </p>
+
+        <div id="injury-chart"></div>
+
+        <div id="footer">
+            Data source: Seattle GeoData | Dashboard by tralee
+        </div>
+    </div>
+
+    <div id="map"></div>
+    <div id="legend"></div>
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
