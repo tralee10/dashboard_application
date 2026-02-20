@@ -39,9 +39,9 @@ The basemap uses a dark Mapbox style to provide geographic context while maintai
 
 This thematic layer displays vehicle collision locations across Seattle using a GeoJSON dataset. Each collision is symbolized using proportional circles based on the collision severity recorded.  
 
-- Smaller teal circles represent **0 injuries**  
-- Medium yellow circles represent **1+ injuries**  
-- Larger red circles represent **3+ injuries**  
+- Smaller green circles represent **minor severity**  
+- Medium orange circles represent **severity with injury**  
+- Larger red circles represent **severity with fatality**  
 
 The proportional symbol design allows users to visually compare severity across locations. Popups provide additional information, including location coordinates, collision type, and number of injuries.
 
